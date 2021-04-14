@@ -1,0 +1,13 @@
+{
+  "name": "epson-update-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Timo Schwarzer",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Update Epson printers with magic</title>
+  <style>
+    body {
+      font-family: Avenir, Helvetica, Arial, sans-serif;
+      padding: 32px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>EPSON* Printer update utility</h1>
+    <p>
+      Select the <strong>EXTRACTED</strong> firmware file and enter the target IP address
+      below.
+    </p>
+    <form method="post" enctype="multipart/form-data" action="/update">
+      <input type="file" name="file" required />
+      <input type="text" placeholder="Printer IP" name="printer_ip" required />
+      <input type="submit">
+    </form>
+    <p>
+      <small>* not so official :P</small>
+    </p>
+  </div>
+</body>
+</html>
