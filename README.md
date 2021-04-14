@@ -1,5 +1,7 @@
 # EPSON Printer Updater
 
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/timoschwarzer/epson-updater-web?style=for-the-badge)
+
 This tool helps to upload firmware binaries to EPSON printers where the EPSON update
 utility is not feasible to use because of restricted broadcast traffic or lack of a
 machine running Windows.
@@ -8,7 +10,7 @@ machine running Windows.
 
 | Model                                | works |
 |--------------------------------------|-------|
-| Workforce Pro WF-C5790DWF BAM        | yes   |
+| Workforce Pro WF-C5790DWF BAM        | ✅    |
 
 
 ### Option 1: Run the web interface with Docker
