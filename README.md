@@ -16,7 +16,7 @@ machine running Windows.
 ### Option 1: Run the web interface with Docker
 
 ```shell
-docker run -p 3000:3000 timoschwarzer/epson-update-web
+docker run -p 3000:3000 timoschwarzer/epson-updater-web
 ```
 
 Now you can open `http://localhost:3000` in your browser and run the firmware update.
